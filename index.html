@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,113 @@
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-       <img src="img/Logo.png" alt="logo Toboolist">
-        <span class="title">Toboolist</span>
+    <!-- start header -->
+    <header class="page-header">
+
+        <h1 class="title"><img src="img/Logo.png" alt="logo Toboolist">
+            Toboolist
+        </h1>
     </header>
+    <!-- end header -->
+
 
     <main>
+
         <div class="container">
-            <div class=""></div>
+            <!-- start buttons bar -->
+            <div class="buttons">
+                <button class="active_button">Add Task</button>
+                <button class="disabled_button">Add Section</button>
+            </div>
+            <!-- end buttons bar -->
+            <hr>
+            <!-- start new task -->
+            <section>
+                <div class="section">
+                    <h2><span class="arrow">&#9660;</span> <span class="">New Task</span></h2>
+                </div>
+                <ul>
+                    <li>
+                        <button class="check">&check;</button>
+                        <span>Quarterly Newsletter</span>
+                        <button class="button editorial">Editorial</button>
+                    </li>
+                </ul>
+            </section>
+            <!-- end new task -->
+            <!-- start today -->
+            <section>
+                <div class="section">
+                    <h2>
+                        <span class="arrow">&#9660;</span>
+                        <span class="">Today</span>
+                    </h2>
+                </div>
+                <ul>
+
+                    <li>
+                        <button class="check">&check;</button>
+                        <span>Recruiting blog post</span>
+                        <button class="button editorial">Editorial</button>
+                    </li>
+
+                    <li>
+                        <button class="check">&check;</button>
+                        <span>Mobile app launch</span>
+                        <button class="button q1_goals">Q1 Goals</button>
+                    </li>
+
+                    <li>
+                        <button class="cross">&cross;</button>
+                        <span>Interview John H.</span>
+                        <button class="button recruiting">Recruiting</button>
+                    </li>
+
+                    <li>
+                        <button class="check">&check;</button>
+                        <span>Summit update to mobile storefronts</span>
+                        <button class="button mobile">Mobile</button>
+                    </li>
+                </ul>
+            </section>
+            <!-- end today -->
+            <!-- start upcoming -->
+            <section>
+                <div class="section">
+                    <h2><span class="arrow">&#9660;</span> <span class="">Upcoming</span></h2>
+                </div>
+                <ul>
+                    <li>
+                        <button class="cross">&cross;</button>
+                        <span>Schedule meeting with Alex</span>
+                    </li>
+
+                    <li>
+                        <button class="check">&check;</button>
+                        <span>Homepage Refresh</span>
+                        <button class="button website">Website</button>
+                    </li>
+
+                    <li>
+                        <button class="check">&check;</button>
+                        <span>onboard new Sales team members</span>
+                        <button class="button sales">Sales</button>
+                    </li>
+
+                    <li>
+                        <button class="check">&check;</button>
+                        <span>Review editorial calendar</span>
+                        <button class=" button editorial">Editorial</button>
+                    </li>
+                </ul>
+            </section>
+            <!-- end upcoming -->
         </div>
 
     </main>
-    
+
 </body>
+
 </html>
